@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Dry Deserts",
+        "color": "#857614"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#B0B0B0"
+      },
+      {
+        "text": "Lizdtre",
+        "color": "#a340ba"
+      },
+      "\n",
+      {
+        "text": "To use with large biomes, check README.md in the pack folder",
+        "color": "#B0B0B0"
+      }
+    ],
+    "pack_format": 12,
+    "supported_formats": [12, 999]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "range_choice",
+  "input": "overworld_large_biomes/continents",
+
+  "comment": "You can change the value below, values above -0.19 may allow slightly more rivers to generate near the coast in deserts and badlands",
+  "comment2": "It is not recommended to set this value below -0.19",
+  "comment3": "Tweak this value carefully for predictable results, consult the wiki on world generation to learn how CONTINENTALNESS works",
+  "comment4": "Default value: -0.19",
+  "min_inclusive": -0.19,
+
+
+  "max_exclusive": 3,
+  "when_out_of_range": "dry_deserts:vanilla/ridges",
+  "when_in_range": {
+    "type": "range_choice",
+    "input": "dry_deserts:overworld_large_biomes/dftemp",
+
+    "comment": "You can change the value below, values above 0.55 may allow slightly more rivers to generate on the edges of deserts and badlands",
+    "comment2": "Values below 0.55 will dry up rivers in biomes adjacent to deserts and badlands, very low values (below -2.0) will disable rivers from your world entirely",
+    "comment3": "Tweak this value carefully for predictable results, consult the wiki on world generation to learn how TEMPERATURE works",
+    "comment4": "Default value: 0.55",
+    "min_inclusive": 0.55,
+
+
+    "max_exclusive": 3.0,
+    "when_out_of_range": "dry_deserts:vanilla/ridges",
+    "when_in_range": "dry_deserts:riverless_ridges"
+  }
+}

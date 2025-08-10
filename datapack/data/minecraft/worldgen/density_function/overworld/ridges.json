@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "cache_2d",
+
+    "comment": "change the value of 'argument' below for use with different world presets",
+    "comment2": "For default or amplified world types, use: dry_deserts:overworld/ridges",
+    "comment3": "For large biomes world type, use: dry_deserts:overworld_large_biomes/ridges",
+    "argument": "dry_deserts:overworld/ridges"
+  }
+}
